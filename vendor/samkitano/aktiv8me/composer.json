@@ -1,0 +1,38 @@
+{
+  "name": "samkitano/aktiv8me",
+  "description": "User Activation by email for Laravel 5.5",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "samkitano",
+      "email": "sam.kitano@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7"
+  },
+  "require-dev": {
+    "laravel/framework": "5.5.*",
+    "phpunit/phpunit": "^5.7",
+    "fzaninotto/faker": "~1.4",
+    "mockery/mockery": "0.9.*",
+    "tightenco/mailthief": "^0.3.6"
+  },
+  "autoload": {
+    "psr-4": {
+      "Kitano\\Aktiv8me\\": "src"
+    },
+    "classmap": [
+      "tests"
+    ]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Kitano\\Aktiv8me\\Aktiv8meServiceProvider"
+      ]
+    }
+  }
+}

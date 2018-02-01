@@ -23,6 +23,7 @@
                         <li><a href="/about">ABOUT</a></li>
                         <li><a href="{{ url('posts') }}">POSTS</a></li>
                         <li><a href="{{ url('articles') }}">ARTICLES</a></li>
+                        <li><a href="{{ route('show.form.validate') }}">Form</a></li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->

@@ -37,4 +37,5 @@ Route::resource('comments', 'CommentsController');
 
 //AutoComplete Route
 Route::any('/categorysearch', 'AutocompleteController@CategorySearch');
-
+Route::get('form-validate', 'MainController@showValidateForm')->name('show.form.validate');
+Route::post('form-validate', 'MainController@storeValidateForm')->name('store.form.validate');

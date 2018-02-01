@@ -7,6 +7,7 @@
      <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
     <script src="{{ asset('js/app.js') }}"></script>
+    {{--  <script src="{{ asset('js/jquery-validate-tooltip.min.js') }}"></script>  --}}
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>{{ config('app.name', 'Laravel') }}</title>
@@ -25,10 +26,11 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/application.js') }}"></script>
-    <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
+    <script src="{{ asset('js/validate.js') }}"></script>
+    {{--  <script src="/vendor/unisharp/laravel-ckeditor/ckeditor.js"></script>
     <script>
         CKEDITOR.replace( 'article-ckeditor' );
-    </script>
+    </script>  --}}
     {{--  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a18180951fc7b9b"></script>   --}}
 </body>
 </html>

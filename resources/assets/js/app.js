@@ -16,6 +16,11 @@ window.Vue = require('vue');
 import 'jquery-ui/ui/widgets/autocomplete';
 import 'jquery-ui/themes/base/all.css';
 
+
+import 'jquery-validation/dist/jquery.validate.min';
+import 'jquery-validation/dist/additional-methods';
+import 'jquery-validation/dist/jquery-validate-tooltip.min';
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application

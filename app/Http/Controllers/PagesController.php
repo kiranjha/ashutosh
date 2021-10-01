@@ -17,12 +17,12 @@ class PagesController extends Controller
         $title2 = 'ABOUT';
         $title3 = 'SERVICES';
         // $data=array(
-        //     'name'=>'Ashutosh',
-        //     'friends'=> ['vijay','uday','neeraj']
+        //     'name'=>'ASHUTOSH',
+        //     'friends'=> ['VIJAY','uday','neeraj']
         // );
         $title4 =array(
-            'ashutosh',
-            'vijay'
+            'ASHUTOSH',
+            'VIJAY'
         );
         return view('pages.services', compact('title1','title2','title3','title4'));
     }
